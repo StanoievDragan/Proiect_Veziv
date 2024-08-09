@@ -1,6 +1,9 @@
----
+<h1 align="center">Portfolio Manager</h1>
+<p align="center">
+<img src="https://i.imgur.com/SVtXizS.png"/>
 
-# Portfolio Manager
+
+
 
 ## Overview
 
