@@ -1,0 +1,34 @@
+.App {
+  text-align: start;
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.work-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.work-item {
+  border: 1px solid #000000;
+  padding: 10px;
+  width: calc(33% - 20px);
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .work-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .work-item {
+    width: 100%;
+  }
+}
